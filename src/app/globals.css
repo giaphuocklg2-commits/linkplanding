@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-jakarta: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-jakarta);
+    background-color: #F8FAFF;
+    color: #0B1736;
+  }
+
+  body {
+    overflow-x: hidden;
+    background: radial-gradient(circle at 50% 0%, rgba(22, 119, 242, 0.05) 0%, transparent 60%),
+                radial-gradient(circle at 100% 20%, rgba(37, 216, 223, 0.04) 0%, transparent 50%),
+                #F8FAFF;
+  }
+}
+
+/* Custom LinkP Utilities */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.7);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(241, 245, 249, 0.9);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #1677F2 0%, #25D8DF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-dark {
+  background: linear-gradient(135deg, #0B1736 0%, #1677F2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-radial-blue {
+  background: radial-gradient(circle at 50% 50%, rgba(22, 119, 242, 0.15) 0%, rgba(37, 216, 223, 0.05) 50%, transparent 80%);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #1677F2 0%, #0D5CC8 100%);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -6px rgba(22, 119, 242, 0.45);
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
