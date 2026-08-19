@@ -4,7 +4,9 @@ import SocialProofTicker from "@/components/SocialProofTicker";
 import TrustStrip from "@/components/TrustStrip";
 import HowItWorks from "@/components/HowItWorks";
 import LinkDemo from "@/components/LinkDemo";
+import VoucherRadar from "@/components/VoucherRadar";
 import CashbackCalculator from "@/components/CashbackCalculator";
+import LeaderboardSection from "@/components/LeaderboardSection";
 import FeatureStory from "@/components/FeatureStory";
 import ReferralSection from "@/components/ReferralSection";
 import TrustSection from "@/components/TrustSection";
@@ -21,7 +23,9 @@ export default function Home() {
       <TrustStrip />
       <HowItWorks />
       <LinkDemo />
+      <VoucherRadar />
       <CashbackCalculator />
+      <LeaderboardSection />
       <FeatureStory />
       <ReferralSection />
       <TrustSection />

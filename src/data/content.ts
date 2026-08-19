@@ -41,9 +41,11 @@ export const SITE_CONFIG = {
 export const NAV_LINKS: NavItem[] = [
   { label: "Cách hoạt động", href: "#how-it-works" },
   { label: "Trải nghiệm thử", href: "#demo" },
+  { label: "Mã giảm giá", href: "#vouchers" },
   { label: "Tính tiền hoàn", href: "#calculator" },
+  { label: "Bảng xếp hạng", href: "#leaderboard" },
   { label: "Tính năng", href: "#features" },
-  { label: "Giới thiệu bạn", href: "#referral" },
+  { label: "Giới thiệu", href: "#referral" },
   { label: "FAQ", href: "#faq" },
 ];
 
