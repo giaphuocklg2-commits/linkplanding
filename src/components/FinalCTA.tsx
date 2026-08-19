@@ -33,13 +33,13 @@ export default function FinalCTA() {
               {/* Download Buttons */}
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
                 <a
-                  href="/assets/LinkP-v1.0.apk"
-                  download
+                  href="/assets/LinkP-v2.0.apk"
+                  download="LinkP-v2.0.apk"
                   className="bg-white text-[#0B1736] hover:bg-blue-50 font-black text-sm px-6 py-3.5 rounded-2xl flex items-center justify-center gap-2.5 shadow-xl transition-all w-full sm:w-auto hover:scale-105 active:scale-95"
                 >
                   <Smartphone className="w-5 h-5 text-linkp-blue" />
                   <div className="text-left flex flex-col">
-                    <span className="text-[10px] text-slate-500 font-bold uppercase leading-none">Tải trực tiếp</span>
+                    <span className="text-[10px] text-slate-500 font-bold uppercase leading-none">Tải trực tiếp v2.0</span>
                     <span className="font-extrabold text-sm leading-tight">Cài đặt Android (APK)</span>
                   </div>
                 </a>

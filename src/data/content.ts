@@ -35,12 +35,13 @@ export const SITE_CONFIG = {
   cashbackRate: "80%",
   appStoreUrl: "#",
   googlePlayUrl: "#",
-  apkDirectUrl: "#",
+  apkDirectUrl: "/assets/LinkP-v2.0.apk",
 };
 
 export const NAV_LINKS: NavItem[] = [
   { label: "Cách hoạt động", href: "#how-it-works" },
   { label: "Trải nghiệm thử", href: "#demo" },
+  { label: "Tính tiền hoàn", href: "#calculator" },
   { label: "Tính năng", href: "#features" },
   { label: "Giới thiệu bạn", href: "#referral" },
   { label: "FAQ", href: "#faq" },
